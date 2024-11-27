@@ -1,0 +1,46 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context="fragment.deskripsi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/judul_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alkalami"
+            android:text="Song Title"
+            android:layout_gravity="top|center_horizontal"
+            android:padding="10dp" />
+
+        <!-- TextView untuk Deskripsi Musik -->
+        <TextView
+            android:id="@+id/deskripsi_msk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_extrabold"
+            android:padding="10dp"
+            android:text="Deskripsi Lagu"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/lyric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_extralight"
+            android:padding="10dp"
+            android:text="Lirik"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+</FrameLayout>

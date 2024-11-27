@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">UTS</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Nama_lagu">Judul Lagu</string>
+    <string name="deskripsi_music3">
+    Judul lagu: Ignite\n\n
+    Penyanyi: Alan Walker, K-391, Julie Bergan, Seungri\n\n
+    Album: Ignite\n\n
+    Tanggal rilis: 11 Mei 2018\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music2">
+    Judul lagu: All Falls Down\n\n
+    Penyanyi: Alan Walker, Noah Cyrus, Digital Farm Animals\n\n
+    Album: Different World\n\n
+    Tanggal rilis: 27 Oktober 2017\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music1">
+    Judul lagu: Alone Pt II\n\n
+    Penyanyi: Alan Walker, Ava Max\n\n
+    Album: Alone, Pt. II\n\n
+    Tanggal rilis: 27 Desember 2019\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music4">
+    Judul lagu: Diamond Heart\n\n
+    Penyanyi: Alan Walker, Sophia Somajo\n\n
+    Album: Different World\n\n
+    Tanggal rilis: 28 September 2018\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music5">
+    Judul lagu: Not You\n\n
+    Penyanyi: Alan Walker, Emma Steinbakken\n\n
+    Album: Walkerverse Pt. 1\n\n
+    Tanggal rilis: 17 Juni 2022\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music6">
+    Judul lagu: Faded\n\n
+    Penyanyi: Alan Walker\n\n
+    Album: Different World\n\n
+    Tanggal rilis: 3 Desember 2015\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music7">
+    Judul lagu: Barcelona\n\n
+    Penyanyi: Alan Walker, Ina Wroldsen\n\n
+    Album: Walkerverse Pt. 2\n\n
+    Tanggal rilis: 18 November 2022\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music8">
+    Judul lagu: Strongest\n\n
+    Penyanyi: Ina Wroldsen\n\n
+    Album: Strongest (Single)\n\n
+    Tanggal rilis: 20 Oktober 2017\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music9">
+    Judul lagu: Lily\n\n
+    Penyanyi: Alan Walker, K-391, Emelie Hollow\n\n
+    Album: Different World\n\n
+    Tanggal rilis: 14 Desember 2018\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music10">
+    Judul lagu: Lost Control\n\n
+    Penyanyi: Alan Walker, Sorana\n\n
+    Album: Different World\n\n
+    Tanggal rilis: 14 Desember 2018\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music11">
+    Judul lagu: On My Way\n\n
+    Penyanyi: Alan Walker, Sabrina Carpenter, Farruko\n\n
+    Album: Non-album single\n\n
+    Tanggal rilis: 21 Maret 2019\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music12">
+    Judul lagu: The Drum\n\n
+    Penyanyi: Alan Walker\n\n
+    Album: Walkerverse Pt. 1\n\n
+    Tanggal rilis: 29 April 2022\n\n
+    Lirik:\n\n
+
+</string>
+
+    <string name="deskripsi_music13">
+    Judul lagu: The Spectre\n\n
+    Penyanyi: Alan Walker\n\n
+    Album: The Spectre (Single)\n\n
+    Tanggal rilis: 15 September 2017\n\n
+    Lirik:\n\n
+</string>
+
+    <string name="deskripsi_music14">
+    Judul lagu: Unity\n\n
+    Penyanyi: Alan Walker, Walkers\n\n
+    Album: Unity (Single)\n\n
+    Tanggal rilis: 2019\n\n
+    Lirik:\n\n
+</string>
+    <string name="deskripsi_music15">
+    Judul lagu: Fire &amp; Water\n\n
+    Penyanyi: Faizal Tahir\n\n
+    Album: BoBoiBoy Movie 2 (Soundtrack)\n\n
+    Tanggal rilis: 2019\n\n
+    Lirik:\n\n
+</string>
+    <string name="deskripsi_music16">
+    Judul lagu: Masih Di Sini\n\n
+    Penyanyi: Bunkface\n\n
+    Album: BoBoiBoy The Movie (Soundtrack)\n\n
+    Tanggal rilis: 2016\n\n
+    Lirik:\n\n
+</string>
+
+    <string name="lirik3">
+    Fireflies, a million little pieces&#10;
+    Feeds the dying light, and brings me back to life&#10;
+    In your eyes, I see something to believe in&#10;
+    Your hands are like a flame, your palms the sweetest pain&#10;
+    Let the darkness lead us into the light&#10;
+    Let our dreams get lost, feel the temperature rise&#10;
+    Baby, tell me one more beautiful lie&#10;
+    One touch and I ignite&#10;
+    Like a starship speeding into the night&#10;
+    You and I get lost in the infinite lights&#10;
+    Baby, tell me one more beautiful lie&#10;
+    One touch and I ignite&#10;
+    One touch and I ignite&#10;
+    One touch and I ignite&#10;
+    So alive, your touch is like the daylight&#10;
+    Burning on my skin, it turns me on again&#10;
+    You and I, survivors of the same kind&#10;
+    But we re the only ones dancing on the sun&#10;
+    Let the darkness lead us into the light&#10;
+    Let our dreams get lost, feel the temperature rise&#10;
+    Baby, tell me one more beautiful lie&#10;
+    One touch and I ignite&#10;
+    Like a starship speeding into the night&#10;
+    You and I get lost in the infinite lights&#10;
+    Baby, tell me one more beautiful lie&#10;
+    One touch and I ignite&#10;
+    One touch and I ignite&#10;
+    One touch and I ignite&#10;
+    Diamonds are forever, but all we need is just tonight&#10;
+    We are monumental tremors that can freeze the speed of life&#10;
+    Just like particles that is falling from heaven all over the stars&#10;
+    Hear you calling for me, hear you calling me home from afar&#10;
+    Let the darkness lead us into the light&#10;
+    Let our dreams get lost, feel the temperature rise&#10;
+    Baby, tell me one more beautiful lie&#10;
+    One touch and I ignite&#10;
+    I feel the heat as we collide&#10;
+    Like a fever that feels so right&#10;
+    So baby, tell me one more beautiful lie&#10;
+    One touch and I ignite&#10;
+    One touch and I ignite&#10;
+    One touch and I ignite&#10;
+    One touch and I ignite&#10;
+    One touch and I ignite&#10;
+    One touch and I ignite&#10;
+</string>
+
+    <string name="lirik2">
+        Coming Soon
+    </string>
+    <string name="lirik1">Coming Soon</string>
+    <string name="lirik4">Coming Soon</string>
+    <string name="lirik5">Coming Soon</string>
+    <string name="lirik6">Coming Soon</string>
+    <string name="lirik7">Coming Soon</string>
+    <string name="lirik8">Coming Soon</string>
+    <string name="lirik9">Coming Soon</string>
+    <string name="lirik10">Coming Soon</string>
+    <string name="lirik11">Coming Soon</string>
+    <string name="lirik12">Coming Soon</string>
+    <string name="lirik13">Coming Soon</string>
+    <string name="lirik14">Coming Soon</string>
+    <string name="lirik15">Coming Soon</string>
+    <string name="lirik16">Coming Soon</string>
+
+
+</resources>

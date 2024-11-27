@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alexandria</item>
+        <item>@font/alkalami</item>
+        <item>@font/battambang</item>
+        <item>@font/bigshot_one</item>
+        <item>@font/poppins_extrabold</item>
+        <item>@font/poppins_extralight</item>
+        <item>@font/poppins_medium</item>
+    </array>
+</resources>
