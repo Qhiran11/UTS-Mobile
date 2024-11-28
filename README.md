@@ -1,6 +1,6 @@
-Muh. Qhiran. N _ F55123021 \n
-Putri Casiola _ F55123008 \n
-Marsya Cikita _ F55123004 \n
+Muh. Qhiran. N _ F55123021 <br>
+Putri Casiola _ F55123008 <br>
+Marsya Cikita _ F55123004 <br>
 
 <img width="960" alt="Screenshot 2024-11-28 185223" src="https://github.com/user-attachments/assets/1604dedb-ca7a-4e33-be76-a21b28345af4">
 <img width="960" alt="Screenshot 2024-11-28 185231" src="https://github.com/user-attachments/assets/a2a6c7fa-f256-4c01-9a44-fb32de8087cd">
