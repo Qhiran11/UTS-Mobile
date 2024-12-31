@@ -30,7 +30,7 @@
             <ImageView
                 android:layout_width="128dp"
                 android:layout_height="128dp"
-                android:src="@drawable/piringan" />
+                android:src="@drawable/logo" />
 
             <TextView
                 android:id="@+id/tvSongTitle"
@@ -76,6 +76,15 @@
             </LinearLayout>
         </LinearLayout>
 
+        <ImageButton
+            android:id="@+id/Search_Activity"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/search"
+            android:layout_marginLeft="12dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:layout_marginTop="12dp"/>
 
     </RelativeLayout>
 

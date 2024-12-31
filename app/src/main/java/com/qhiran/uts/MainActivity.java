@@ -1,10 +1,13 @@
 package com.qhiran.uts;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.NonNull;
@@ -26,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private String[] songTitles;
     private TextView tvSongTitle; // Untuk menampilkan judul lagu
     private ImageButton btnPlayPause;
+    private ImageButton btnSearch;
 
     private BottomNavigationView navigasi;
     private void switchFragment(Fragment fragment){
@@ -83,6 +87,11 @@ public class MainActivity extends AppCompatActivity {
         if (savedInstanceState == null) {
             navigasi.setSelectedItemId(R.id.navigation_home); // Set default item (Home)
         }
+        btnSearch = findViewById(R.id.Search_Activity);
+        btnSearch.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, SearchActivity.class);
+            startActivity(intent);
+        });
     }
 
     public void playSelectedSong(String songTitle) {
@@ -111,6 +120,29 @@ public class MainActivity extends AppCompatActivity {
             btnPlayPause.setImageResource(R.drawable.pause);
         }
     }
+
+    public void playSongFromUri(Uri songUri) {
+        if (mediaPlayer != null) {
+            mediaPlayer.stop();
+            mediaPlayer.release();
+        }
+
+        try {
+            mediaPlayer = MediaPlayer.create(this, songUri);
+
+            if (mediaPlayer != null) {
+                mediaPlayer.start();
+                btnPlayPause.setImageResource(R.drawable.pause);
+                tvSongTitle.setText(songUri.getLastPathSegment() != null ? songUri.getLastPathSegment() : "Unknown Title");
+            } else {
+                Toast.makeText(this, "Tidak dapat memutar lagu. Periksa format atau lokasi file.", Toast.LENGTH_SHORT).show();
+            }
+        } catch (Exception e) {
+            Toast.makeText(this, "Terjadi kesalahan saat mencoba memutar lagu: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+        }
+    }
+
+
 
 
     private void changeTrack(int direction) {

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/search_layout"
+    tools:context=".SearchActivity">
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop" />
+
+    <!-- Header Text -->
+    <ImageView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Selamat Datang Di TuneLux"
+        android:src="@drawable/welcometext"
+        android:textColor="@android:color/white" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/welcome_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+
+    <SearchView
+        android:id="@+id/search_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_image"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_background"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_input"
+        android:paddingHorizontal="25dp"
+        android:layout_above="@id/play_button"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/temukanMusikmuText"
+        android:layout_width="wrap_content"
+        android:alpha="0.4"
+        android:layout_marginTop="40dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/search_input"
+        android:src="@drawable/temukanmusikmutext"/>
+
+    <!-- Play Button -->
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        android:src="@drawable/play2" />
+
+
+</RelativeLayout>

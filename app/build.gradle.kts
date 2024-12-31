@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.qhiran.uts"
-        minSdk = 27
+        minSdk = 28
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -37,7 +37,13 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.car.ui.lib)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.google.code.gson:gson:2.8.8")
+    implementation ("androidx.recyclerview:recyclerview:1.2.1")
 }
